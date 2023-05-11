@@ -36,12 +36,12 @@ const citys = [
       photo2: "",
       photo3: "",
     },
-    resume: "",
+    resume:
+      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique. C'est une ville cosmopolite et animée, avec une scène culturelle riche et diversifiée, ainsi qu'un environnement propice au vélo et à la marche. Amsterdam est également célèbre pour son quartier rouge et sa politique de tolérance envers les drogues douces.",
     protips: {
       protips1:
         "Faitent attention lorsque vous visitez , les Neerlandais roulent tous a vélo",
-      protips2: "",
-      protips3: "",
+      protips2: "Aimer beaucoup le poisson",
     },
   },
   {

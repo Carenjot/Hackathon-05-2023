@@ -14,9 +14,10 @@ li {
 .contentPage {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   height: inherit;
+  margin-left: 1rem;
 }
 
 .button-page {
@@ -30,7 +31,11 @@ li {
   padding: 0;
   scale: 0.5;
   border-radius: 1rem;
-  background: linear-gradient(#693c08, black);
+  background-image: url("../img/carnet.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+
   scale: 1.5;
 }
 
@@ -50,13 +55,7 @@ li {
   margin-top: 10rem;
 }
 
-.travelogue {
-  background-color: beige;
-}
-
-.page:hover {
-  scale: 1.5;
-  position: relative;
-  z-index: 10;
-  transition: 0.2s ease-in-out;
+.travelogue h1 {
+  background-color: lightblue;
+  opacity: 50%;
 }

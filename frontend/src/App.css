@@ -1,5 +1,5 @@
 body {
-  background-image: src("../assets/test2.jpg");
+  background-image: src("./assets/test2.jpg");
 }
 body {
   margin: 0;

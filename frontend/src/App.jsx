@@ -1,12 +1,11 @@
-import Home from "./pages/Home";
-
+import "./components/InsideTravelogue.css";
 import "./App.css";
+import Travelogue from "./components/Travelogue";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      <Travelogue />
     </div>
   );
 }

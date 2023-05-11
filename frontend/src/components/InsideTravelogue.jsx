@@ -1,9 +1,11 @@
-function InsideTravelogue() {
+import PropTypes from "prop-types";
+
+function InsideTravelogue({ title }) {
   return (
     <section className="inside-travelogue">
       <section className="page">
         <ul className="contentPage">
-          <li>test</li>
+          <li>{title}</li>
           <li>test</li>
           <li>test</li>
           <li>test</li>
@@ -20,5 +22,9 @@ function InsideTravelogue() {
     </section>
   );
 }
+
+InsideTravelogue.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default InsideTravelogue;

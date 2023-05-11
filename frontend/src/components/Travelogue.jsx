@@ -1,23 +1,16 @@
-import { useState } from "react";
-import InsideTravelogue from "./InsideTravelogue";
+import PropTypes from "prop-types";
 
-function Travelogue() {
-  const [isInside, setIsInside] = useState(false);
-
-  const checkInside = () => {
-    setIsInside(!isInside);
-  };
-
+function Travelogue({ title }) {
   return (
-    <>
-      <button type="button" onClick={checkInside}>
-        <div>
-          <h1>titre carnet</h1>
-        </div>
-      </button>
-      {isInside && <InsideTravelogue />}
-    </>
+    <div className="travelogue">
+      <h1>{title}</h1>
+      <p>test</p>
+    </div>
   );
 }
+
+Travelogue.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default Travelogue;

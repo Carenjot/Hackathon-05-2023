@@ -56,8 +56,9 @@ const citys = [
     resume: " Quel voyage ! ",
     protips: {
       protips1:
-        "Très souvent, les danois se déplacent à vélo, il y a même une sorte d'autoroute qui leurs est dédié",
-      protips2: " Ils sont très respectueux de la réglementation",
+        "Très souvent, les danois se déplacent à vélo, il y a même une sorte d'autoroute qui leurs est dédié. Ils sont très respectueux de la réglementation.",
+      protips2:
+        "Le plat typique est le Smørrebrød, une tranche de pain avec divers aliments dessus dont souvent du poisson. ",
       protips3:
         "Un grand sentiment de sérénité, on comprends mieux pourquoi il est élu le pays des gens heureux ",
     },

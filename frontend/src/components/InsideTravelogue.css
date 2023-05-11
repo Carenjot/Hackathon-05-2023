@@ -35,16 +35,18 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   border: 0;
-
+  background-color: transparent;
   scale: 1.5;
+  box-shadow: 1rem 0 3rem;
 }
 
 .inside-travelogue {
-  background: linear-gradient(#693c08, black);
+  background: linear-gradient(transparent, #693c08);
   max-width: 50%;
   position: absolute;
   top: 40%;
   left: 35%;
+  border-radius: 2rem;
 }
 
 .pack-travelogue {
@@ -58,4 +60,6 @@ li {
 .travelogue h1 {
   background-color: lightblue;
   opacity: 50%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }

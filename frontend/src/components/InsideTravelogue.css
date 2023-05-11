@@ -1,0 +1,62 @@
+.page {
+  height: 50vh;
+  background-image: url("../img/page.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.contentPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: inherit;
+}
+
+.button-page {
+  padding: 0;
+  scale: 0.5;
+  border-radius: 1rem;
+  background-color: beige;
+}
+
+.button-carnet {
+  padding: 0;
+  scale: 0.5;
+  border-radius: 1rem;
+  background: linear-gradient(#693c08, black);
+  scale: 1.5;
+}
+
+.inside-travelogue {
+  background: linear-gradient(#693c08, black);
+  max-width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.pack-travelogue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.travelogue {
+  background-color: beige;
+}
+
+.page:hover {
+  scale: 1.5;
+  position: relative;
+  z-index: 10;
+  transition: 0.2s ease-in-out;
+}

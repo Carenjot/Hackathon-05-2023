@@ -29,12 +29,17 @@ const citys = [
   },
   {
     id: 2,
-    title: "",
-    name: "",
-    photo: "",
+    title: "Voyage a Amsterdam",
+    name: "Enzo Andre",
+    photo: {
+      photo1: "",
+      photo2: "",
+      photo3: "",
+    },
     resume: "",
     protips: {
-      protips1: "",
+      protips1:
+        "Faitent attention lorsque vous visitez , les Neerlandais roulent tous a vélo",
       protips2: "",
       protips3: "",
     },

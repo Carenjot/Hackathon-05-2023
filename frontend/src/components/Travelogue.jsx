@@ -4,7 +4,7 @@ function Travelogue({ title }) {
   return (
     <div className="travelogue">
       <h1>{title}</h1>
-      <p>test</p>
+      <p>année</p>
     </div>
   );
 }

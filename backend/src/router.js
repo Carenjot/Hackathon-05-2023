@@ -31,10 +31,11 @@ const citys = [
     title: "Voyage a Amsterdam",
     name: "Enzo Andre",
     photo: ["./src/assets/amsterdam.jpg"],
-    resume: "",
+    resume:
+      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique.",
     protips: [
       "Faites attention lorsque vous visitez , les Neerlandais roulent tous a vélo",
-      "",
+      "Aimer beaucoup le poisson , les Néerlandzis en raffolent",
       "",
     ],
   },

@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 
-function InsideTravelogue({ title }) {
+function InsideTravelogue({ title, number }) {
   return (
     <section className="inside-travelogue">
       <section className="page">
         <ul className="contentPage">
-          <li>{title}</li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
+          {title[number - 1].protips.map(
+            (tips) => tips !== "" && <li key={tips}>{tips}</li>
+          )}
         </ul>
       </section>
       <section>
@@ -25,6 +24,7 @@ function InsideTravelogue({ title }) {
 
 InsideTravelogue.propTypes = {
   title: PropTypes.string.isRequired,
+  number: PropTypes.number.isRequired,
 };
 
 export default InsideTravelogue;

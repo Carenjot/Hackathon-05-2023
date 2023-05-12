@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Virgil";
+  src: url(../assets/font/Virgil.woff2) format("woff2");
+}
+
 .page {
   height: 50vh;
   background-image: url("../assets/page.jpg");
@@ -9,15 +14,6 @@
 
 li {
   list-style: none;
-}
-
-.contentPage {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-around;
-  height: inherit;
-  margin-left: 1rem;
 }
 
 .button-page {
@@ -67,7 +63,7 @@ li {
   margin-top: 10rem;
 }
 
-.travelogue h1 {
+.travelogue h5 {
   background-color: lightblue;
   opacity: 50%;
   border-top-left-radius: 2rem;
@@ -87,4 +83,19 @@ li {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+.contentPage {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  height: inherit;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+  padding-top: 2rem;
+  gap: 0.5rem;
+  list-style: circle;
+  font-family: "Virgil";
+  text-align: left;
 }

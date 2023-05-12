@@ -1,20 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../assets/nodebook.png";
 import Travelogue from "./Travelogue";
 
 import InsideTravelogue from "./InsideTravelogue";
 
-const listTitle = [
-  {
-    id: 1,
-    title: "titre1",
-  },
-  { id: 2, title: "titre2" },
-  { id: 3, title: "titre3" },
-  { id: 4, title: "titre4" },
-];
-
 function TraveloguePack() {
+  const [listCarnet, setListCarnet] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/citys")
+      .then((response) => response.json())
+      .then((data) => setListCarnet(data));
+  }, []);
+
   const [numberTravelogue, setNumberTravelogue] = useState();
   const checkInside = (title) => {
     setNumberTravelogue(title);
@@ -26,21 +23,21 @@ function TraveloguePack() {
       </div>
 
       <section className="pack-travelogue">
-        {listTitle.map((title) => (
+        {listCarnet.map((carnet) => (
           <button
-            key={title.id}
+            key={carnet.id}
             type="button"
             className="button-carnet"
-            value={title.id}
+            value={carnet.id}
             onClick={() => {
-              checkInside(title.title);
+              checkInside(carnet.id);
             }}
           >
-            <Travelogue title={title.title} />
+            <Travelogue title={carnet} />
           </button>
         ))}
         {numberTravelogue != null && (
-          <InsideTravelogue title={numberTravelogue.toString()} />
+          <InsideTravelogue title={listCarnet} number={numberTravelogue} />
         )}
       </section>
     </>

@@ -30,24 +30,13 @@ const citys = [
     id: 2,
     title: "Voyage a Amsterdam",
     name: "Enzo Andre",
-
-    photo: {
-      photo1: "./src/assets/amsterdam.jpg",
-      photo2: "./src/assets/AMSTERDAM.jpg",
-    },
-    resume:
-      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique. C'est une ville cosmopolite et animée, avec une scène culturelle riche et diversifiée, ainsi qu'un environnement propice au vélo et à la marche. Amsterdam est également célèbre pour son quartier rouge et sa politique de tolérance envers les drogues douces.",
-    protips: {
-      protips1:
-        "Faitent attention lorsque vous visitez , les Néerlandais roulent tous à vélo",
-      protips2: "Aimer beaucoup le poisson",
-    },
     photo: ["./src/assets/amsterdam.jpg"],
-    resume: "",
+    resume:
+      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique.",
     protips: [
       "Faites attention lorsque vous visitez , les Neerlandais roulent tous a vélo",
-      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique. ",
-      "Amsterdam est également célèbre pour son quartier rouge et sa politique de tolérance envers les drogues douces.",
+      "Aimer beaucoup le poisson , les Néerlandzis en raffolent",
+      "",
     ],
   },
   {

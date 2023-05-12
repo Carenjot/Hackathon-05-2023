@@ -16,14 +16,6 @@ function InsideTravelogue({ title, number }) {
           )}
         </ul>
       </section>
-      <section>
-        <button type="button" className="button-page">
-          Page précédente
-        </button>
-        <button type="button" className="button-page">
-          Page suivante
-        </button>
-      </section>
     </section>
   );
 }

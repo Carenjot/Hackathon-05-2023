@@ -66,7 +66,11 @@ const citys = [
     id: 4,
     title: "Voyage en Islande",
     name: "Aurélien Carenjot",
-    photo: "",
+    photo: {
+      photo1: "./src/assets/",
+      photo2: "",
+      photo3: "",
+    },
     resume: "",
     protips: {
       protips1: "",

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/nodebook.png";
 import Travelogue from "./Travelogue";
 
 import InsideTravelogue from "./InsideTravelogue";
@@ -19,24 +20,30 @@ function TraveloguePack() {
     setNumberTravelogue(title);
   };
   return (
-    <section className="pack-travelogue">
-      {listTitle.map((title) => (
-        <button
-          key={title.id}
-          type="button"
-          className="button-carnet"
-          value={title.id}
-          onClick={() => {
-            checkInside(title.title);
-          }}
-        >
-          <Travelogue title={title.title} />
-        </button>
-      ))}
-      {numberTravelogue != null && (
-        <InsideTravelogue title={numberTravelogue.toString()} />
-      )}
-    </section>
+    <>
+      <div className="logo">
+        <img src={logo} alt="logo" />
+      </div>
+
+      <section className="pack-travelogue">
+        {listTitle.map((title) => (
+          <button
+            key={title.id}
+            type="button"
+            className="button-carnet"
+            value={title.id}
+            onClick={() => {
+              checkInside(title.title);
+            }}
+          >
+            <Travelogue title={title.title} />
+          </button>
+        ))}
+        {numberTravelogue != null && (
+          <InsideTravelogue title={numberTravelogue.toString()} />
+        )}
+      </section>
+    </>
   );
 }
 

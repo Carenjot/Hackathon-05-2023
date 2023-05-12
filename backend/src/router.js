@@ -30,6 +30,7 @@ const citys = [
     id: 2,
     title: "Voyage a Amsterdam",
     name: "Enzo Andre",
+
     photo: {
       photo1: "./src/assets/amsterdam.jpg",
       photo2: "./src/assets/AMSTERDAM.jpg",
@@ -41,6 +42,13 @@ const citys = [
         "Faitent attention lorsque vous visitez , les Néerlandais roulent tous à vélo",
       protips2: "Aimer beaucoup le poisson",
     },
+    photo: ["./src/assets/amsterdam.jpg"],
+    resume: "",
+    protips: [
+      "Faites attention lorsque vous visitez , les Neerlandais roulent tous a vélo",
+      "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique. ",
+      "Amsterdam est également célèbre pour son quartier rouge et sa politique de tolérance envers les drogues douces.",
+    ],
   },
   {
     id: 3,
@@ -48,6 +56,7 @@ const citys = [
     name: " Aylin Noiret",
     photo: ["./src/assets/copenhague.jpg", "", ""],
     resume: " Quel voyage ! ",
+
     protips: [
       "Très souvent, les danois se déplacent à vélo, il y a même une sorte d'autoroute qui leurs est dédié",
       "Ils sont très respectueux de la réglementation",
@@ -59,9 +68,13 @@ const citys = [
     id: 4,
     title: "Voyage en Islande",
     name: "Aurélien Carenjot",
-    photo: ["./src/assets/", "", ""],
+    photo: ["./src/assets/islande.jpg", "./src/assets/mouton.jpg", ""],
     resume: "Un autre monde",
-    protips: ["Attention aux moutons sur les routes", "", ""],
+    protips: [
+      "Attention aux moutons sur les routes",
+      "Le meilleur Hot-dog du monde se situe à Reykjavik, faut essayer au moins une fois",
+      "Lachez vos portables et levez les yeux pour la beauté des aurores boréales",
+    ],
   },
 ];
 

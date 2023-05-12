@@ -44,6 +44,7 @@ const citys = [
     name: " Aylin Noiret",
     photo: ["./src/assets/copenhague.jpg", "", ""],
     resume: " Quel voyage ! ",
+
     protips: [
       "Très souvent, les danois se déplacent à vélo, il y a même une sorte d'autoroute qui leurs est dédié",
       "Ils sont très respectueux de la réglementation",

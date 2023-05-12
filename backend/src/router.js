@@ -32,7 +32,7 @@ const citys = [
     title: "Voyage a Amsterdam",
     name: "Enzo Andre",
     photo: {
-      photo1: "",
+      photo1: "./src/assets/amsterdam.jpg",
       photo2: "",
       photo3: "",
     },
@@ -46,20 +46,26 @@ const citys = [
   },
   {
     id: 3,
-    title: "",
-    name: "",
-    photo: "",
-    resume: "",
+    title: " Voyage au Danemark",
+    name: " Aylin Noiret",
+    photo: {
+      photo1: "./src/assets/copenhague.jpg",
+      photo2: "",
+      photo3: "",
+    },
+    resume: " Quel voyage ! ",
     protips: {
-      protips1: "",
-      protips2: "",
-      protips3: "",
+      protips1:
+        "Très souvent, les danois se déplacent à vélo, il y a même une sorte d'autoroute qui leurs est dédié",
+      protips2: " Ils sont très respectueux de la réglementation",
+      protips3:
+        "Un grand sentiment de sérénité, on comprends mieux pourquoi il est élu le pays des gens heureux ",
     },
   },
   {
     id: 4,
-    title: "",
-    name: "",
+    title: "Voyage en Islande",
+    name: "Aurélien Carenjot",
     photo: "",
     resume: "",
     protips: {

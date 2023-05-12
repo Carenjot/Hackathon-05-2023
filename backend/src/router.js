@@ -30,7 +30,7 @@ const citys = [
     id: 2,
     title: "Voyage a Amsterdam",
     name: "Enzo Andre",
-    photo: ["./src/assets/amsterdam.jpg"],
+    photo: ["./src/assets/amsterdam.jpg", "./src/assets/AMSTERDAM.jpg"],
     resume:
       "Amsterdam est la capitale des Pays-Bas, connue pour ses canaux, ses musées et son architecture historique.",
     protips: [

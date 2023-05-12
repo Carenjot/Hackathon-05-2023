@@ -8,6 +8,12 @@ function InsideTravelogue({ title, number }) {
           {title[number - 1].protips.map(
             (tips) => tips !== "" && <li key={tips}>{tips}</li>
           )}
+          {title[number - 1].photo.map(
+            (photo) =>
+              photo !== "" && (
+                <img className="photoInside" src={photo} alt="imgInside" />
+              )
+          )}
         </ul>
       </section>
       <section>

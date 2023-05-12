@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 function Travelogue({ title }) {
   return (
     <div className="travelogue">
-      <h1>{title}</h1>
-      <p>année</p>
+      <h5>{title.title}</h5>
+      <p>{title.name}</p>
     </div>
   );
 }
